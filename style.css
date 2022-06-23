@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+/*  Estilos */
+
+.menu_inicial{
+    background: url(img/todos_juntos.jpeg) no-repeat;
+    background-position: center;
+    padding-top: 32px;
+}
+.main_menu{
+    text-align: center;
+}
+
+.menu_botao{
+    display: inline-block;
+    margin: 0 2px 32px 0;
+}
+
+.menu_botao a {
+    color: white;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+.menu_botao a:hover{
+    background-color: #4169E1;
+}
+
+.jumbotron{
+    text-align: center;
+    padding: 0 0 44px 0;
+}
+
+.panel_main{
+    color: #AFEEEE;
+    text-shadow: 4px 4px 10px #000;
+}
+
+.jumbotron .title{
+    font-size: 3em
+}
+
+.jumbotron .sub-title{
+    font-size: 2.6em;
+    color: #0000CD;
+    margin-top: 8px;
+}
+
+.jumbotron .button-subscrite{
+    margin-top: 28px;
+}
+
+@media( min-width: 650px) {
+    .menu_inicial .jumbotron{
+        font-size: 28px;
+    }
+}
+
+
+/* Base */
+
+.container{
+    width: 96%;
+    margin: 0 auto;
+}
+
+.field{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.input{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #4169E1;
+}
+
+.button{
+    display: inline-block;
+    color:#FFF;
+    text-decoration: none;
+    font-size: 20px;       
+    padding: 25px 50px;
+    background-color: #4169E1;
+    border-radius: 8px;
+}
+
+
+/* Formas */
+
+.form{
+    margin-top: 32px;
+}
+
+.title-form{
+    font-size: 30px;
+    color:  #0000CD;
+    text-transform: uppercase;
+}
+
+
+/* Painel  */
+
+.panel-about{
+    text-align: center;       
+}
+
+.about-title{
+    font-size: 2em; 
+    margin: 40px;
+}
+
+.about-subtitle{
+    font-size: 1.5em;
+    margin: 20px;
+}
+
+.about-descrição{
+    font-size: 1em;
+    line-height: 2em;
+}
+
+
+/* Participantes */
+
+.panel-participantes {
+    background:#696969;
+    text-align: center;
+}
+
+.panel-title {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.panel-subtitle {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 16px;
+ }
+
+ .participante{ 
+    text-align: center;
+}
+
+ .participantes {
+     display: inline-block;
+     width: 230px;
+     background-color: white;
+     margin: 0 16px 32px 0;
+     padding: 18px;
+     border-radius: 10px;
+     vertical-align: top;
+ }
+
+ .participantes-image{
+    border-radius: 70%;
+    height: 250px;   
+}
+
+.participantes-nome {
+     margin-top: 10px;
+}
+
+.participantes-bio{
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.frase-participantes{
+   margin-top: 16px;
+}
